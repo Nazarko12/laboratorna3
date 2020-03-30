@@ -8,12 +8,11 @@ import java.util.List;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import ua.lviv.iot.machinery.model.FuelType;
-import ua.lviv.iot.machinery.model.Machinery;
-import ua.lviv.iot.machinery.model.RiderTraceMakerMachine;
-import ua.lviv.iot.machinery.model.SkiLiftMakerMachine;
-import ua.lviv.iot.machinery.model.SkisTraceMakerMachine;
-import ua.lviv.iot.machinery.model.WheelType;
+import ua.lviv.iot.machinery.models.FuelType;
+import ua.lviv.iot.machinery.models.RiderTraceMakerMachine;
+import ua.lviv.iot.machinery.models.SkiLiftMakerMachine;
+import ua.lviv.iot.machinery.models.SkisTraceMakerMachine;
+import ua.lviv.iot.machinery.models.WheelType;
 
 
 class MachineryManagerTest extends BaseMachineryManagerTest {

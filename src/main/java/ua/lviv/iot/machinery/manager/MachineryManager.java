@@ -3,9 +3,8 @@ package ua.lviv.iot.machinery.manager;
 import java.util.LinkedList;
 import java.util.List;
 
-import ua.lviv.iot.machinery.model.FuelType;
-import ua.lviv.iot.machinery.model.Machinery;
-import ua.lviv.iot.machinery.model.WheelType;
+import ua.lviv.iot.machinery.models.FuelType;
+import ua.lviv.iot.machinery.models.WheelType;
 
 public class MachineryManager {
 	List<Machinery> listOfMachinery = new LinkedList<Machinery>();
