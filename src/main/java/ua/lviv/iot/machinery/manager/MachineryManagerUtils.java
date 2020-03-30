@@ -3,8 +3,7 @@ package ua.lviv.iot.machinery.manager;
 import java.util.Comparator;
 import java.util.List;
 
-import ua.lviv.iot.machinery.model.Machinery;
-import ua.lviv.iot.machinery.model.SortType;
+import ua.lviv.iot.machinery.models.SortType;
 
 public class MachineryManagerUtils {
 	private static final SortByLoseFuelPerOneHour FUEL_PER_HOUR_SORTER = new SortByLoseFuelPerOneHour();
