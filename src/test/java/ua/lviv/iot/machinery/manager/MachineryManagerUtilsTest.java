@@ -7,12 +7,15 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import ua.lviv.iot.machinery.models.FuelType;
-import ua.lviv.iot.machinery.models.RiderTraceMakerMachine;
-import ua.lviv.iot.machinery.models.SkiLiftMakerMachine;
-import ua.lviv.iot.machinery.models.SkisTraceMakerMachine;
-import ua.lviv.iot.machinery.models.SortType;
-import ua.lviv.iot.machinery.models.WheelType;
+import ua.lviv.iot.machinery.spring.manager.Machinery;
+import ua.lviv.iot.machinery.spring.manager.MachineryManager;
+import ua.lviv.iot.machinery.spring.manager.MachineryManagerUtils;
+import ua.lviv.iot.machinery.spring.models.FuelType;
+import ua.lviv.iot.machinery.spring.models.RiderTraceMakerMachine;
+import ua.lviv.iot.machinery.spring.models.SkiLiftMakerMachine;
+import ua.lviv.iot.machinery.spring.models.SkisTraceMakerMachine;
+import ua.lviv.iot.machinery.spring.models.SortType;
+import ua.lviv.iot.machinery.spring.models.WheelType;
 
 public class MachineryManagerUtilsTest {
 

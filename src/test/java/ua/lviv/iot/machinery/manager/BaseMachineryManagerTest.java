@@ -3,7 +3,7 @@ package ua.lviv.iot.machinery.manager;
 import java.util.LinkedList;
 import java.util.List;
 
-import ua.lviv.iot.machinery.models.SkiLiftMakerMachine;
+import ua.lviv.iot.machinery.spring.models.SkiLiftMakerMachine;
 
 public abstract class BaseMachineryManagerTest {
 
